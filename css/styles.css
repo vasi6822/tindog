@@ -1,0 +1,189 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+
+.container-fluid {
+    padding: 3% 20% 7%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.0em;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.download {
+    margin: 5% 3% 5% 0;
+}
+
+.dog {
+    position: absolute;
+    width: 60%;
+    rotate: 25deg;
+    right: 30%;
+}
+
+@media (max-width: 1200px) {
+    .dog {
+        position: static;
+        rotate: 0deg;
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+#features {
+    position: relative;
+}
+
+#features {
+    text-align: center;
+    padding: 7rem 0;
+    background-color: white;
+}
+
+#features h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+#features p {
+    color: #8f8f8f;
+    padding: 0 5em;
+}
+
+#features i {
+    color: #ef8172;
+    font-size: 4rem;
+}
+#features i:hover {
+    color: #ff4c68;
+}
+
+/*  */
+
+#testimonials {
+
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+#testimonials h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+#testimonials img {
+    border-radius: 50%;
+    width: 10%;
+    margin: 2em;
+}
+
+.carousel-item {
+    padding: 3% 20%;
+    transition: transform .6s ease-in-out;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+#press .press-img {
+    width: 10%;
+    margin: 5em 2em;
+}
+
+.card-btn {
+    width: 100%;
+}
+
+#pricing {
+    padding: 3% 10%;
+    text-align: center;
+}
+
+#pricing .pricing-col {
+    padding: 3% 2%;
+}
+
+
+#cta {
+    padding: 5% 20%;
+    text-align: center;
+    background-color: #ff4c68;
+
+}
+
+#cta h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: white;
+    padding: 3rem;
+}
+
+#cta .btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    margin: 0 1rem;
+}
+
+#footer {
+    padding: 5% 20%;
+    text-align: center;
+}
+
+
+#footer i {
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+
+#footer p {
+    padding: 1em;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #8f8f8f
+}
